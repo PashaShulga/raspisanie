@@ -1,0 +1,31 @@
+body {
+  padding: 70px 0;
+}
+
+.fluid-tokenfield {
+    width: 100%!important;
+}
+
+.right-btn-group {
+  text-align: right;
+}
+
+.act-btn {
+  margin: 0;
+}
+
+.mtf {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+@media print {
+  body {
+    padding-top: 0;
+  }
+
+  button, input, select, .breadcrumb {
+    display: none!important;
+  }
+}
